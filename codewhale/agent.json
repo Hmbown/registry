@@ -1,21 +1,22 @@
 {
   "id": "codewhale",
-  "name": "CodeWhale",
-  "version": "0.8.65",
-  "description": "Provider-agnostic terminal coding agent with first-class DeepSeek support.",
-  "repository": "https://github.com/Hmbown/CodeWhale",
-  "website": "https://github.com/Hmbown/CodeWhale/blob/main/docs/RUNTIME_API.md#acp-stdio-adapter-codewhale-serve---acp",
+  "name": "Codewhale",
+  "version": "0.10.2",
+  "description": "Open-source Rust terminal coding agent supporting hosted and local models.",
+  "repository": "https://github.com/codewhale-hq/Codewhale",
+  "website": "https://codewhale.net",
   "authors": [
     "Hunter Bown"
   ],
   "license": "MIT",
   "distribution": {
     "npx": {
-      "package": "codewhale@0.8.65",
+      "package": "codewhale@0.10.2",
       "args": [
         "serve",
         "--acp"
       ]
     }
-  }
+  },
+  "license_url": "https://github.com/codewhale-hq/Codewhale/blob/main/LICENSE"
 }
